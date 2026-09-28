@@ -1,0 +1,6 @@
+{
+  "name": "Twist & Bloom Studio | Handmade Pipe-Cleaner Crafts & Gifts",
+  "description": "Handmade with love, crafted just for you. Discover bespoke pipe-cleaner floral bouquets, cute keychains, ambient floral lamps, and personalized keepsake gifts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
