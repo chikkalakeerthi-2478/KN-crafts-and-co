@@ -12,6 +12,7 @@ import { ContactUs } from './components/ContactUs';
 import { Footer } from './components/Footer';
 import { ProductModal } from './components/ProductModal';
 import { CartDrawer } from './components/CartDrawer';
+import { ChatBot } from './components/ChatBot';
 import { PRODUCTS } from './data/products';
 import { Product, CartItem, CustomOrderRequest, ProductCategory } from './types';
 
@@ -185,6 +186,9 @@ export default function App() {
         onClearCart={handleClearCart}
         onShopClick={() => handleScrollTo('products')}
       />
+
+      {/* Floating Studio AI Assistant Chatbot (n8n Webhook) */}
+      <ChatBot />
     </div>
   );
 }
